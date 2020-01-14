@@ -1,5 +1,12 @@
+main {
+    margin-top: 55px;
+}
+
 body {
     background-color: rgb(20, 20, 20);
+    background-image: url(http://bsnscb.com/data/out/83/39292493-galaxy-wallpapers.jpeg);
+    background-size: 1200px;
+    background-attachment: fixed;
     margin: 0;
     color: white;
     text-align: center;
@@ -9,11 +16,17 @@ body {
 }
 
 ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: none;
+    text-align: center;
+    top: 0;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    width: 100%;
 }
 
 li {
@@ -43,10 +56,13 @@ footer {
 }
 
 .card {
-    border: 2px solid rgb(66, 66, 66);
+    background-color: rgba(87, 87, 87, 0.295);
+    margin: 15px auto;
     width: 500px;
     padding: 20px 20px;
 }
+
+
 
 img {
     height: 200px;
