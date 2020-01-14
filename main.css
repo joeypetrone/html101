@@ -1,3 +1,43 @@
 body {
-    background-color: cornsilk;
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    color: white;
+    text-align: center;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(22, 22, 22);
+}
+
+footer {
+    width: 100%;
+    color: white;
+    background-color: #333;
+    padding: 10px 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
